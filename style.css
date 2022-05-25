@@ -82,6 +82,12 @@ header:hover{
 header button{
     font-size: 0.6em;
 }
+header .nav{
+    border: 2px solid blueviolet;
+    background-color: antiquewhite;
+    color: black;
+    
+}
 
 #hero{
     display: flex;
@@ -213,7 +219,7 @@ padding: 130px 12px;
 padding:  150px 12px;
 
 
-}}
+}
 
 
 .clientes-compras p{
@@ -236,11 +242,14 @@ padding:  150px 12px;
     padding: 50px;
     margin: 20px;
     border-radius: 15px;
+    
    
 
 }
 
 .clientes-varios:first-child{
+    background-position: center center;
+    background-size: cover;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -251,6 +260,8 @@ padding:  150px 12px;
 }
 
 .clientes-varios:nth-child(2){
+    background-position: center center;
+    background-size: cover;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -261,6 +272,8 @@ padding:  150px 12px;
 }
 
 .clientes-varios:nth-child(3){
+    background-position: center center;
+    background-size: cover;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -276,9 +289,17 @@ padding:  150px 12px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(30, 30, 30);
-    color: aliceblue;
+    background-color: whitesmoke;
+    color: black;
     height: 80vh;
+}
+
+#sobrenosotros i{
+    margin: 10px;
+}
+
+#sobrenosotros span{
+    color: blueviolet;
 }
 
 #final h2{
@@ -290,7 +311,7 @@ padding:  150px 12px;
 }
 
 footer{
-    background-color: rgb(230, 230, 230);
+    background-color: black;
 }
 footer p{
     margin: 0;
